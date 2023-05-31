@@ -164,6 +164,11 @@ input{
     font-size: 1rem;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+.promo{
+    margin: auto;
+    width: 3rem;
+
+}
 
 /* Footer */
 footer {
