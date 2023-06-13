@@ -123,11 +123,13 @@ body {
     margin: 40px 0px;
 }
 .einicio{
+    display: inline;
     color: rgb(156, 164, 172);
     font-size: 0.9rem;
     text-decoration: none;
     font-weight:normal;
     font-family: 'Plus Jakarta Sans', sans-serif;
+    padding: auto;
 }
 .etitle{
     display: inline;
@@ -135,8 +137,9 @@ body {
     font-size: 1.5rem;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: bolder;
-    line-height: 20px;
+    padding: auto;
 }
+
 .Logos-contac{
     display: inline;
     width: 5%;
@@ -161,23 +164,45 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     margin: 0px 0px 0px 0px; 
 }
+
+
+.form-container{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: center;
+}
 .form_class{
-    display: inline-block;
-    align-items:center;
+    display: grid;
+    padding: 10px;
+    overflow-x: hidden; 
+    grid-template-areas: 
+        "class2 class2"
+        "class3 class3"
+        "buttom buttom";
 }
 .form_class2 {
+    grid-area: class2; 
+    margin: auto;
+    padding: auto;
     border-radius: 5px;
     border-color: #d6b7ed;
     color: slategray;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .form_class3 {
+    grid-area: class3;
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
     border-color: #d6b7ed;
     color: slategray;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 input{
+    grid-area: buttom;
     background: linear-gradient(#d6b7ed, white);
     border-radius: 5px;
     border-color:#d6b7ed;
@@ -206,8 +231,48 @@ section h2{
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: rgb(70, 82, 94);
 }
+.service2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+.service2, ul{
+    list-style:none;
+    margin: 20px;
+}
 
 /*CARDS BOOTSTRAP*/
+.card-cont{
+    width: 90%;
+    height: auto;
+    display: inline-table;
+    overflow-x: hidden;
+    scroll-behavior: auto;
+ }
+.card_service {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: 20px;
+
+}
+.neon-border-service {
+    border: 2px solid #b8bebe;
+    box-shadow: 0 0 10px #c9c9c9;
+}
+.card-text-service{
+    margin: 5px;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+.card-title{
+    margin: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
 .card-group {
     display: flex;
     flex-wrap: nowrap;
@@ -450,32 +515,35 @@ iframe {
     iframe {
         height: 80%;
     }
+    .form-container{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: center;
+    }
     .form_class{
         display: grid;
         width:90%;
         height: 300px;
-        margin-left: 20px;
-        grid-template-rows: repeat(3, 100px);
-        grid-template-columns: 400px 200px;
+        padding: 10px;
+        overflow-x: hidden; 
         grid-template-areas:
-            "form1 form1"
-            "form2 form3"
-            "form2 form3" 
-    }    
+            "class2 buttom"
+            "class3 class3"
+            "class3 class3";
+    }
     .form_class2{
-        grid-area: form1;
-        margin: 10px 0px 10px 0px;
-        width: 100%;
-        height: 30px;
+        grid-area: class2;
+        margin: 5px;
     }
     .form_class3{
-        grid-area: form2;
-
+        grid-area: class3;
     }
-    .buttom{
-        grid-area: form3;
-        margin-left: 20px;
-        width: 100%;
+    input{
+        grid-area: buttom;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 90%;
         height: 30px;
     }
     .neon-border{
@@ -487,6 +555,20 @@ iframe {
     }
     .card-mobile{
         margin-bottom: 35px;
+    }
+    .card-cont{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 10px;
+     }
+    .card_service {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        width: 90%;
+        margin: 20px;
     }
 }
 /*Medida desktop*/
@@ -511,6 +593,7 @@ iframe {
         font-weight: 700;
         font-size: 1rem;
     }
+
     .menu_container{
         border-top:  none;
         border-bottom: none;
@@ -525,8 +608,14 @@ iframe {
     }
     .cc2 p{
         text-align: center;
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         line-height: 30px;
+        
+    }
+    .cc2, p a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.3rem;
     }
     .grid_container{
         display: grid;
@@ -594,36 +683,36 @@ iframe {
     } 
     footer h3{
         font-size: 0.9rem;
-    } 
+    }
+    .form-container{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: center;
+    }
     .form_class{
         display: grid;
-        width: 100%;
-        height: 400px;
-        margin-left: 20px;
-        grid-template-rows: 150px 150px 70px;
-        grid-template-columns: 300px 300px;
-        grid-template-areas:
-            "form1 form1"
-            "form2 form2"
-            "form3 form3" 
-    }  
-    .form_class2{
-        grid-area: form1;
-        margin-top: 10px;
+        width:100%;
+        height: 300px;
         padding: 10px;
-        width: 100%;
-        height: 30px;
+        overflow-x: hidden; 
+        grid-template-areas:
+            "class2 class3 class3"
+            "buttom class3 class3";
+    }
+    .form_class2{
+        grid-area: class2;
+        margin: 5px 0px 5px 0px;
     }
     .form_class3{
-        grid-area: form2;
+        grid-area: class3;
         width: 100%;
-        margin: 10px 0px 0px 0px;
-
+        height: 100%;
     }
-    .buttom{
-        grid-area: form3;
-        margin-left: 0px;
-        width: 100%;
+    input{
+        grid-area: buttom;
+        margin: 5px 0px 5px 0px;
+        width: 90%;
         height: 30px;
     }
     .elink{
@@ -668,4 +757,11 @@ iframe {
     .card-body, p{
         font-size: 0.9rem;
     }
+    .card-cont{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
 }
