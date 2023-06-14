@@ -10,12 +10,12 @@
  @import './layout/nosotras';
  @import './layout/contacto';
  @import './layout/servicios';
-
+//media
+@import './layout/media600px';
+@import './layout/media501-960px';
+@import './layout/media961px';
  //componetes
  @import './componetes/cards';
  @import './componetes/hover-image';
 
-//media
-@import './media/media600px';
-@import './media/media501-960px';
-@import './media/media961px';
+

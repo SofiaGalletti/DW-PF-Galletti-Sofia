@@ -85,22 +85,21 @@
         grid-template-areas:
             "footer_logo column1 column2"
             "footer_logo column1 column2";
-    }
-    .footer_logo{
-        grid-area: footer_logo;
-        margin: 5px;
-        padding: 5px;
-        width: 100%;
-        height: auto;
-    }
-    .column1{
-        grid-area: column1;
-        display: flex;
-        justify-content: center;
-    }
-    .column2{
-        grid-area: column2;
-        
+        .content-logo{
+            grid-area: footer_logo;
+            margin: 5px;
+            padding: 5px;
+            width: 100%;
+            height: auto;
+        }
+        .column1{
+            grid-area: column1;
+            display: flex;
+            justify-content: center;
+        }
+        .column2{
+            grid-area: column2;
+        }
     }
     .contac{
         margin: 10px;

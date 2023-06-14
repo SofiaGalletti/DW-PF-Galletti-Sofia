@@ -77,24 +77,25 @@
         overflow-x: hidden; 
         grid-template-areas:
             "footer_logo column1 column2";
-    }
-    .footer_logo{
+        .content-logo{
         grid-area: footer_logo;
-    }
+        }
+        .column1{
+            grid-area: column1;
+            display: flex;
+            margin: auto;
+            padding: 0px;
+        }
+        .column2{
+            grid-area: column2;
+        }
+
     .content-logo{
         display: flex;
         margin: auto;
         padding: 0px;
-    }
-    .column1{
-        grid-area: column1;
-        display: flex;
-        margin: auto;
-        padding: 0px;
-    }
-    .column2{
-        grid-area: column2;
-    }
+    }}
+       
     .contac{
         margin: 10px;
         font-size: 0.9rem;
