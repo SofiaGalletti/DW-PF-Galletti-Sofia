@@ -1,0 +1,7 @@
+@media screen and (max-width: 600px) {
+    .card-group {
+      flex-wrap: wrap;
+      overflow-x: hidden;
+      scroll-behavior: auto;
+    }
+}

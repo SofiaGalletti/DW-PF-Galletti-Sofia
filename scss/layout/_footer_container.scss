@@ -1,0 +1,19 @@
+.footer_container{
+    background: linear-gradient(white, #d6b7ed);
+    padding: 20px;
+    font-size: 15px;
+    overflow-x: hidden; 
+    display: grid;
+    grid-template-areas: 
+      "logo logo column1"
+      "column2 column2 column2";
+      .content-logo {
+        grid-area: logo;
+      }
+      .column1 {
+        grid-area: column1;
+      }
+      .column2 {
+        grid-area: column2;
+      }
+    }

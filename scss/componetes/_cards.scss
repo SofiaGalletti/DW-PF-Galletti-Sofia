@@ -1,0 +1,55 @@
+.card-mobile {
+    display: flex;
+    justify-content: center;
+    .card-group {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      justify-content: center;
+      flex-direction: column;
+      .card {
+        flex: 0 0 auto;
+        margin-right: 10px;
+  
+        &-mobile {
+          display: flex;
+          justify-content: center;
+        }
+      }
+  
+      .neon-border {
+        border: 2px solid #7700ff;
+        box-shadow: 0 0 10px #a200ff;
+  
+        .tamaño-img {
+          width: 50%;
+          height: auto;
+        }
+      }
+  
+      .card-body {
+        padding: 10px;
+  
+        .card-title {
+          margin: 5px;
+          padding: 5px;
+          font-size: 1rem;
+  
+          .card-titulomio {
+            font-weight: bold;
+            text-align: center;
+            font-size: 0.8rem;
+            font-weight: bold;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            color: rgb(70, 82, 94);
+          }
+        }
+      }
+    }
+}
+  
+
+
+              
+              
+            

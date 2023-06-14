@@ -1,0 +1,194 @@
+//Medida desktop
+@media only screen and (min-width: 961px){
+    header{
+        background: linear-gradient(#d6b7ed, white);
+        display: flex;
+        flex-direction: row;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        justify-content: space-between;
+        border-bottom: 1px solid #ccc;
+    }
+    .logo{
+        width: 6rem;
+        margin: auto;
+        
+    }
+    .menu_link{
+        margin: 10px;
+    }
+    .menu_link{
+        font-weight: 700;
+        font-size: 1rem;
+    }
+
+    .menu_container{
+        border-top:  none;
+        border-bottom: none;
+    }
+    .cc1{
+         font-size: 1.5rem;
+    }
+    .cc2 h2{
+        font-size: 1.3rem;
+        line-height: 20px;
+        margin: 25px;
+    }
+    .cc2 p{
+        text-align: center;
+        font-size: 1.3rem;
+        line-height: 30px;
+        
+    }
+    .cc2, p a{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+    .grid_container{
+        display: grid;
+        width:100%;
+        height: 650px;
+        grid-template-rows: auto;
+        grid-template-columns: auto;
+        grid-template-areas:
+            "grid-cc1 grid-cc1 grid-cc1"
+            "grid-nos-img grid-cc2 grid-cc2"
+            "grid-nos-img grid-cc2 grid-cc2";
+    }
+    .grid-cc1{
+        grid-area: grid-cc1;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        line-height: 30px;
+        margin: 25px;
+    }
+     .grid-cc2{
+        grid-area: grid-cc2;
+        display: flex;
+        justify-content:space-between;
+        font-size: 1.3rem;
+        line-height: 30px;
+        margin: 25px;       
+    }
+    section div img{
+        grid-area: grid-nos-img;
+        width: 100%;
+        height: auto;
+    }
+    .footer_container{
+        display: grid;
+        width:100%;
+        height: 200px;
+        grid-template-rows: repeat(2,1fr);
+        grid-template-columns: 100px 400px auto;
+        grid-template-areas:
+            "footer_logo column1 column2"
+            "footer_logo column1 column2";
+    }
+    .footer_logo{
+        grid-area: footer_logo;
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
+        height: auto;
+    }
+    .column1{
+        grid-area: column1;
+        display: flex;
+        justify-content: center;
+    }
+    .column2{
+        grid-area: column2;
+        
+    }
+    .contac{
+        margin: 10px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        line-height: 30px;
+    } 
+    footer h3{
+        font-size: 0.9rem;
+    }
+    .form-container{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: center;
+    }
+    .form_class{
+        display: grid;
+        width:100%;
+        height: 300px;
+        padding: 10px;
+        overflow-x: hidden; 
+        grid-template-areas:
+            "class2 class3 class3"
+            "buttom class3 class3";
+    }
+    .form_class2{
+        grid-area: class2;
+        margin: 5px 0px 5px 0px;
+    }
+    .form_class3{
+        grid-area: class3;
+        width: 100%;
+        height: 100%;
+    }
+    input{
+        grid-area: buttom;
+        margin: 5px 0px 5px 0px;
+        width: 90%;
+        height: 30px;
+    }
+    .elink{
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    .Logos-contac{
+        width: 2.5%;
+    }
+    .telefono{
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    section h1{
+        font-size: 1.6rem;
+    }
+    section h2{
+        margin-left: 35px;
+        padding: 5px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 1.2rem;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        color: rgb(70, 82, 94);
+    }
+    div.card.neon-border {
+        margin: 30px;
+    }
+    .card {
+        display: flex;
+        position: relative;
+        width: 450px;
+        height: 350px;
+    }
+    .tamaño-img{
+        width: 70%;
+        height: auto;
+    }
+    .card-title.card-titulomio{
+        font-size: 1rem;
+    }
+    .card-body, p{
+        font-size: 0.9rem;
+    }
+    .card-cont{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+}

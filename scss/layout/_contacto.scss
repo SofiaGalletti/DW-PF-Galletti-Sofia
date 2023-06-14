@@ -1,0 +1,77 @@
+.datos{
+    .eul{
+        border-bottom: 1px solid #ccc;
+        margin: 20px;
+        .eli{
+            display: flex;
+            align-items: center;
+            .Logos-contac{
+                display: inline;
+                width: 5%;
+                height: auto;
+                margin: 3px 5px 3px 0px;
+            }
+            .elink{
+                color: slategray;
+                font-size: 0.8rem;
+                text-decoration: none;
+                font-weight: 750;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                margin: 10px 0px 10px 0px;
+            }
+            .telefono{
+                display: block;
+                align-items: center;
+                color: slategray;
+                font-size: 0.8rem;
+                text-decoration: none;
+                font-weight: 750;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                margin: 0px 0px 0px 0px;
+            }
+        }
+    }
+}
+.form-container{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: center;
+    .form_class{
+        display: grid;
+        padding: 10px;
+        overflow-x: hidden; 
+        grid-template-areas: 
+            "class2 class2"
+            "class3 class3"
+            "buttom buttom";
+        .form_class2{
+            grid-area: class2; 
+            margin: auto;
+            padding: auto;
+            border-radius: 5px;
+            border-color: #d6b7ed;
+            color: slategray;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .form_class3{
+            grid-area: class3;
+            margin: auto;
+            padding: auto;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            border-color: #d6b7ed;
+            color: slategray;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        input{
+            grid-area: buttom;
+            background: linear-gradient(#d6b7ed, white);
+            border-radius: 5px;
+            border-color:#d6b7ed;
+            font-size: 1rem;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    }
+}

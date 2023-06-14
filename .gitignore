@@ -2,3 +2,6 @@
 .jpeg
 .png
 .gif
+node_module
+package.json
+package-lock.json

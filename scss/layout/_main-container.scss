@@ -1,0 +1,28 @@
+.main-container{
+    width: 100%;
+    max-width: 100%;            
+        section{
+
+              
+            h1{
+                margin: 10px;
+                padding: 10px;
+                text-align: center;
+                font-weight: bold;
+                font-size: 1.2rem;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                color: rgb(70, 82, 94);
+            }
+        }
+        section{
+            h2{
+                margin: 5px;
+                padding: 5px;
+                text-align: left;
+                font-weight: bold;
+                font-size: 0.95rem;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                color: rgb(70, 82, 94);
+            }
+        }
+}

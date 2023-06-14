@@ -1,0 +1,40 @@
+header{
+    max-width: 100%;
+    width: 100%;
+    background: linear-gradient(#d6b7ed, white);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    align-items: center;
+    overflow-x: hidden;
+        a{
+            img{
+            margin: 10px auto;
+            width: 7rem;
+            }
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            border-top:  1.5px solid #ccc;
+            border-bottom: 1.5px solid #ccc;
+            ul{
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+                margin:5px;
+                padding:5px;
+                li{
+                    margin: 1px;
+                    padding: 2px;
+                    a{
+                     text-decoration: none;
+                    color: slategray;
+                    font-size: 0.65rem;
+                    font-weight: 750;
+                    font-family: 'Plus Jakarta Sans', sans-serif;   
+                    }
+                }
+            } 
+        }
+}

@@ -1,0 +1,29 @@
+.container, main{
+    overflow-x: hidden;
+    scroll-behavior: auto;
+    .card-cont{
+        display: inline-table;
+        overflow-x: hidden;
+        scroll-behavior: auto;
+        max-width: 100%;
+        .card_service{
+            display: flex;
+            justify-content: center;
+            flex-wrap: nowrap;
+            width: 90%;
+            margin: 20px;
+            max-width: 100%;
+            .neon-border-service{
+                border: 2px solid #b8bebe;
+                box-shadow: 0 0 10px #c9c9c9;
+                max-width: 100%;
+                .card-text-service{
+                    margin: 5px;
+                    padding: 5px;
+                    font-size: 0.9rem;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

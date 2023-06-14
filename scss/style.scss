@@ -1,0 +1,21 @@
+
+ // import
+ //base
+ @import './base/reset';
+ //layout
+ @import './layout/header';
+ @import './layout/footer';
+ @import './layout/footer_container';
+ @import './layout/main-container';
+ @import './layout/nosotras';
+ @import './layout/contacto';
+ @import './layout/servicios';
+
+ //componetes
+ @import './componetes/cards';
+ @import './componetes/hover-image';
+
+//media
+@import './media/media600px';
+@import './media/media501-960px';
+@import './media/media961px';
