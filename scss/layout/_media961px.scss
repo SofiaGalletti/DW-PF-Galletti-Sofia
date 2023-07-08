@@ -166,6 +166,7 @@
     }
     div.card.neon-border {
         margin: 30px;
+        border-color: darkgreen;
     }
     .card {
         display: flex;
@@ -189,5 +190,9 @@
         display: flex;
         justify-content: center;
     }
+    body{
+   background-color: aqua;
+       
 
+}
 }

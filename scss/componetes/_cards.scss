@@ -1,6 +1,5 @@
 .card-mobile {
-    display: flex;
-    justify-content: center;
+    
     .card-group {
       display: flex;
       flex-wrap: nowrap;
@@ -11,10 +10,7 @@
         flex: 0 0 auto;
         margin-right: 10px;
   
-        &-mobile {
-          display: flex;
-          justify-content: center;
-        }
+      
       }
   
       .neon-border {
