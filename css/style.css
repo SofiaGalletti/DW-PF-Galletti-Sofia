@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,11 +13,14 @@ body {
   max-width: 100%;
   margin: auto;
 }
+body main {
+  background-color: #0D1216;
+}
 
 .cc1 {
   text-align: left;
   font-size: 0.85rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   font-weight: bolder;
   line-height: 70px;
   color: rgb(70, 82, 94);
@@ -33,14 +36,14 @@ body {
   font-size: 0.9rem;
   text-decoration: none;
   font-weight: normal;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   padding: auto;
 }
 .cc1 .etitle1 .etitle {
   display: inline;
   color: rgb(70, 82, 94);
   font-size: 1.5rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   font-weight: bolder;
   padding: auto;
 }
@@ -48,14 +51,14 @@ body {
 .cc2 h2 {
   text-align: center;
   font-size: 0.8rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   line-height: 30px;
   color: rgb(70, 82, 94);
 }
 .cc2 p {
   text-align: justify;
   font-size: 0.75rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   line-height: 18px;
   color: rgb(70, 82, 94);
 }
@@ -63,16 +66,17 @@ body {
 header {
   max-width: 100%;
   width: 100%;
-  background: linear-gradient(#d6b7ed, white);
+  background: #252627;
   display: flex;
   flex-direction: column;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   align-items: center;
   overflow-x: hidden;
+  box-shadow: grey;
 }
 header a img {
   margin: 10px auto;
-  width: 7rem;
+  width: 8rem;
 }
 header nav {
   display: flex;
@@ -93,10 +97,10 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
-  color: slategray;
+  color: #38B6FF;
   font-size: 0.65rem;
   font-weight: 750;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
 }
 
 footer div a img {
@@ -114,14 +118,14 @@ footer div ul li a {
   font-size: 0.65rem;
   text-decoration: none;
   font-weight: 600;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
 }
 footer div h3 {
   color: darkslategrey;
   font-size: 0.8rem;
   text-decoration: none;
   font-weight: 600;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
 }
 footer div iframe {
   width: 100%;
@@ -131,7 +135,7 @@ footer div iframe {
 }
 
 .footer_container {
-  background: linear-gradient(white, #d6b7ed);
+  background: #252627;
   padding: 20px;
   font-size: 15px;
   overflow-x: hidden;
@@ -158,8 +162,8 @@ footer div iframe {
   text-align: center;
   font-weight: bold;
   font-size: 1.2rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: rgb(70, 82, 94);
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
 }
 .main-container section h2 {
   margin: 5px;
@@ -167,16 +171,16 @@ footer div iframe {
   text-align: left;
   font-weight: bold;
   font-size: 0.95rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: rgb(70, 82, 94);
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
 }
 
 .grid_container .grid-cc2 {
   text-align: justify;
   font-size: 0.75rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   line-height: 18px;
-  color: rgb(70, 82, 94);
+  color: white;
 }
 .grid_container .grid-nos-img {
   display: flex;
@@ -204,7 +208,7 @@ footer div iframe {
   font-size: 0.8rem;
   text-decoration: none;
   font-weight: 750;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   margin: 10px 0px 10px 0px;
 }
 .datos .eul .eli .telefono {
@@ -214,7 +218,7 @@ footer div iframe {
   font-size: 0.8rem;
   text-decoration: none;
   font-weight: 750;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
   margin: 0px 0px 0px 0px;
 }
 
@@ -237,7 +241,7 @@ footer div iframe {
   border-radius: 5px;
   border-color: #d6b7ed;
   color: slategray;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
 }
 .form-container .form_class .form_class3 {
   grid-area: class3;
@@ -248,7 +252,7 @@ footer div iframe {
   border-radius: 5px;
   border-color: #d6b7ed;
   color: slategray;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
 }
 .form-container .form_class input {
   grid-area: buttom;
@@ -256,20 +260,26 @@ footer div iframe {
   border-radius: 5px;
   border-color: #d6b7ed;
   font-size: 1rem;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  font-family: "Big Shoulders Display", cursive;
 }
 
-.container, main {
+body {
+  background-color: #0D1216;
+}
+body .container, body main {
   overflow-x: hidden;
   scroll-behavior: auto;
 }
-.container .card-cont, main .card-cont {
+body .container .card-cont, body main .card-cont {
   display: inline-table;
   overflow-x: hidden;
   scroll-behavior: auto;
   max-width: 100%;
 }
-.container .card-cont .card_service, main .card-cont .card_service {
+body .container .card-cont .card_service, body main .card-cont .card_service {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 6rem;
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
@@ -277,102 +287,16 @@ footer div iframe {
   margin: 20px;
   max-width: 100%;
 }
-.container .card-cont .card_service .neon-border-service, main .card-cont .card_service .neon-border-service {
+body .container .card-cont .card_service .neon-border-service, body main .card-cont .card_service .neon-border-service {
   border: 2px solid #b8bebe;
   box-shadow: 0 0 10px #c9c9c9;
   max-width: 100%;
 }
-.container .card-cont .card_service .neon-border-service .card-text-service, main .card-cont .card_service .neon-border-service .card-text-service {
+body .container .card-cont .card_service .neon-border-service .card-text-service, body main .card-cont .card_service .neon-border-service .card-text-service {
   margin: 5px;
   padding: 5px;
   font-size: 0.9rem;
   max-width: 100%;
-}
-
-.card-mobile {
-  display: flex;
-  justify-content: center;
-}
-.card-mobile .card-group {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-  justify-content: center;
-  flex-direction: column;
-}
-.card-mobile .card-group .card {
-  flex: 0 0 auto;
-  margin-right: 10px;
-}
-.card-mobile .card-group .card-mobile {
-  display: flex;
-  justify-content: center;
-}
-.card-mobile .card-group .neon-border {
-  border: 2px solid #7700ff;
-  box-shadow: 0 0 10px #a200ff;
-}
-.card-mobile .card-group .neon-border .tamaño-img {
-  width: 50%;
-  height: auto;
-}
-.card-mobile .card-group .card-body {
-  padding: 10px;
-}
-.card-mobile .card-group .card-body .card-title {
-  margin: 5px;
-  padding: 5px;
-  font-size: 1rem;
-}
-.card-mobile .card-group .card-body .card-title .card-titulomio {
-  font-weight: bold;
-  text-align: center;
-  font-size: 0.8rem;
-  font-weight: bold;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: rgb(70, 82, 94);
-}
-
-.card {
-  display: flex;
-  position: relative;
-  width: 200px;
-  height: 300px;
-}
-.card-image {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.card-image img {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: opacity 0.3s ease;
-}
-.card-image .hover-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-.card-image:hover img {
-  opacity: 0;
-}
-.card-image:hover .hover-image {
-  opacity: 1;
-}
-.card-body {
-  padding: 10px;
-}
-.card-title.card-titulomio {
-  text-align: center;
-  font-size: 0.8rem;
-  font-weight: bold;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  color: rgb(70, 82, 94);
 }
 
 @media screen and (max-width: 600px) {
@@ -381,6 +305,9 @@ footer div iframe {
     overflow-x: hidden;
     scroll-behavior: auto;
   }
+  main {
+    background-color: #0D1216;
+  }
 }
 @media screen and (min-width: 501px) and (max-width: 960px) {
   header {
@@ -388,6 +315,9 @@ footer div iframe {
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
+  }
+  main {
+    background-color: #0D1216;
   }
   .logo {
     width: 8rem;
@@ -540,27 +470,28 @@ footer div iframe {
 }
 @media only screen and (min-width: 961px) {
   header {
-    background: linear-gradient(#d6b7ed, white);
+    background: #252627;
     display: flex;
     flex-direction: row;
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     justify-content: space-between;
     border-bottom: 1px solid #ccc;
   }
-  .logo {
+  body header a img {
     width: 6rem;
     margin: auto;
   }
-  .menu_link {
-    margin: 10px;
+  body header nav {
+    border-top: none;
+    border-bottom: none;
   }
-  .menu_link {
+  body header nav ul li a {
+    margin: 10px;
     font-weight: 700;
     font-size: 1rem;
   }
-  .menu_container {
-    border-top: none;
-    border-bottom: none;
+  body main {
+    background-color: #0D1216;
   }
   .cc1 {
     font-size: 1.5rem;
@@ -575,7 +506,8 @@ footer div iframe {
     font-size: 1.3rem;
     line-height: 30px;
   }
-  .cc2, p a {
+  .cc2,
+  p a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.3rem;
@@ -584,30 +516,32 @@ footer div iframe {
     display: grid;
     width: 100%;
     height: 650px;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-    grid-template-areas: "grid-cc1 grid-cc1 grid-cc1" "grid-nos-img grid-cc2 grid-cc2" "grid-nos-img grid-cc2 grid-cc2";
+    grid-column: 2 100px, auto;
+    grid-template-areas: "cc1 cc1  cc1 cc1 " "grid-nos-img cc2 cc2 cc2" "grid-nos-img cc2 cc2 cc2";
   }
-  .grid-cc1 {
-    grid-area: grid-cc1;
+  .grid_container .cc1 {
+    grid-area: cc1;
+    color: white;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    font-size: 1.7rem;
+    line-height: 30px;
+    margin: 25px;
+  }
+  .grid_container div p {
+    color: rgb(211, 191, 216);
+    grid-area: cc2;
+    display: flex;
+    justify-content: left;
     font-size: 1.5rem;
     line-height: 30px;
     margin: 25px;
   }
-  .grid-cc2 {
-    grid-area: grid-cc2;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.3rem;
-    line-height: 30px;
-    margin: 25px;
-  }
-  section div img {
+  .grid_container .grid-nos-img {
+    padding: 10px;
     grid-area: grid-nos-img;
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 70%;
   }
   .footer_container {
     display: grid;
@@ -690,11 +624,8 @@ footer div iframe {
     text-align: left;
     font-weight: bold;
     font-size: 1.2rem;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    color: rgb(70, 82, 94);
-  }
-  div.card.neon-border {
-    margin: 30px;
+    font-family: "Big Shoulders Display", cursive;
+    color: white;
   }
   .card {
     display: flex;
@@ -709,7 +640,8 @@ footer div iframe {
   .card-title.card-titulomio {
     font-size: 1rem;
   }
-  .card-body, p {
+  .card-body,
+  p {
     font-size: 0.9rem;
   }
   .card-cont {
@@ -718,6 +650,85 @@ footer div iframe {
     display: flex;
     justify-content: center;
   }
+}
+.card-mobile .card-group {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-mobile .card-group .card {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+.card-mobile .card-group .neon-border {
+  border: 2px solid rgb(175, 173, 173);
+  box-shadow: 0 0 10px #b9b9b9;
+}
+.card-mobile .card-group .neon-border .tamaño-img {
+  width: 50%;
+  height: auto;
+}
+.card-mobile .card-group .card-body {
+  padding: 10px;
+  color: white;
+}
+.card-mobile .card-group .card-body .card-title {
+  margin: 5px;
+  padding: 5px;
+  font-size: 1rem;
+  color: white;
+}
+.card-mobile .card-group .card-body .card-title .card-titulomio {
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: "Big Shoulders Display", cursive;
+  color: white;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  width: 200px;
+  height: 300px;
+}
+.card-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease;
+}
+.card-image .hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.card-image:hover img {
+  opacity: 0;
+}
+.card-image:hover .hover-image {
+  opacity: 1;
+}
+.card-body {
+  padding: 10px;
+}
+.card-title.card-titulomio {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-family: "Big Shoulders Display", cursive;
+  color: rgb(70, 82, 94);
 }
 
 /*# sourceMappingURL=style.css.map */

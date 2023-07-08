@@ -63,7 +63,6 @@ body {
 header {
   max-width: 100%;
   width: 100%;
-  background: linear-gradient(#d6b7ed, white);
   display: flex;
   flex-direction: column;
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -131,7 +130,6 @@ footer div iframe {
 }
 
 .footer_container {
-  background: linear-gradient(white, #d6b7ed);
   padding: 20px;
   font-size: 15px;
   overflow-x: hidden;

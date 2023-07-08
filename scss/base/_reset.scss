@@ -4,18 +4,23 @@
     box-sizing: border-box;
 }
  /*Google fonts*/
- @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+
 
 body {
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     max-width: 100%;
     margin: auto;
+    main {
+        background-color: #0D1216;
+    }
 }
 .cc1{
     text-align: left;
     font-size: 0.85rem;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     font-weight: bolder;
     line-height: 70px;
     color: rgb(70, 82, 94);
@@ -29,14 +34,14 @@ body {
             font-size: 0.9rem;
             text-decoration: none;
             font-weight:normal;
-            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-family: 'Big Shoulders Display', cursive;
             padding: auto;
         }
         .etitle{
                 display: inline;
                 color: rgb(70, 82, 94);
                 font-size: 1.5rem;
-                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-family: 'Big Shoulders Display', cursive;
                 font-weight: bolder;
                 padding: auto;
         }
@@ -48,14 +53,14 @@ body {
     h2{
     text-align: center;
     font-size: 0.8rem;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     line-height: 30px;
     color: rgb(70, 82, 94);
     }
     p{
         text-align:justify;
         font-size: 0.75rem;
-        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-family: 'Big Shoulders Display', cursive;
         line-height: 18px;
         color: rgb(70, 82, 94);
     }
